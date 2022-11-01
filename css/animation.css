@@ -1,0 +1,139 @@
+/* 버튼 */
+@keyframes move {
+  40% {
+    transform: translateY(var(--move));
+  }
+}
+
+/* 메인줄 */
+@keyframes line {
+  from {
+    transform: scalex(0);
+  }
+
+  to {
+    transform: scalex(1);
+  }
+}
+
+/* 메인 동그라미*/
+@keyframes shine {
+  from {
+    transform: scale(1) translateX(-50%);
+  }
+
+  to {
+    transform: scale(1.02) translateX(-50%);
+  }
+}
+
+/* 구름 */
+@keyframes cloud-movement {
+  0% {
+    opacity: 0.5;
+    transform: translateX(-100%);
+  }
+
+  /* 
+      10% {
+  
+          opacity: 0.7;
+      }
+  
+      90% {
+          opacity: 0;
+      } */
+
+  100% {
+    opacity: 0.8;
+    transform: translateX(100%);
+  }
+}
+/* 김찬미*/
+@keyframes bounce {
+  100% {
+    top: -3px;
+  }
+}
+
+/* 공공공 */
+
+@keyframes motion {
+  0% {
+    margin-top: 0px;
+  }
+  50% {
+    margin-top: 5px;
+  }
+  100% {
+    margin-top: 10px;
+  }
+}
+
+/* 탑버튼 */
+@keyframes rotate_image {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* 동그라미들 */
+@keyframes rotate-center {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* +버튼 */
+@keyframes moreicon {
+  0% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.8);
+  }
+}
+
+/* 신호등 */
+@keyframes blink {
+  0% {
+    filter: drop-shadow(3px 3px 5px #c7d7ef);
+  }
+
+  50% {
+    filter: drop-shadow(3px 3px 5px #4171b8);
+  }
+  100% {
+    filter: drop-shadow(3px 3px 5px rgb(255, 255, 255));
+  }
+}
+
+/* 바운스 */
+@keyframes bounce2 {
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  60% {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}
+
