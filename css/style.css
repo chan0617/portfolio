@@ -1191,12 +1191,16 @@ iframe {
 }
 #portfolio #pf-modal .modal-container .top {
   height: 50px;
+  background: #719cdd;
 }
 #portfolio #pf-modal .modal_box {
   position: relative;
   height: calc(100% - 50px);
   overflow-y: scroll;
   overflow-x: hidden;
+}
+#portfolio #pf-modal .modal_box img{
+  width: 100%;
 }
 #portfolio #pf-modal .close {
   position: absolute;
@@ -1207,7 +1211,7 @@ iframe {
   border: none;
   font-size: 2rem;
   font-weight: 300;
-  color: #999;
+  color: #fff;
   background: transparent;
   cursor: pointer;
 }
