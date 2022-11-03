@@ -10,7 +10,7 @@ https://chan0617.github.io/portfolio/
 
 이 포트폴리오는 구직용으로 상업적 목적이 없음을 알려드립니다.<br/><br/>
 포트폴리오의 콘셉트는 열정,희망,가능성을 메인 키워드로 하여...<br/><br/>
-![styleGuide view](/app-screenshot.png)<br/><br/>
+![styleGuide view](img/app-screenshot.png)<br/><br/>
 
 디자인컨셉은 '토끼'로 제 성격 마인드맵을 통하여 잡게되었습니다.
 1.일처리가 빠르다.
