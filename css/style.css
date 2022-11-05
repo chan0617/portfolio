@@ -1386,7 +1386,10 @@ iframe {
   margin-top: 300px;
   left: 865px;
 }
-
+.footer-area img{
+  width: 81px;
+  height: 31px;
+}
 /* MEDIA QUERY */
 /* 랩탑 */
 @media screen and (max-width: 1024px) and (max-width: 1600px) {
