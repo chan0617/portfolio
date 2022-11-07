@@ -56,47 +56,47 @@ $(window).scroll(function () {
   ];
 
   if (sct > sections[0].section - 350) {
-    sections[0].left.stop().animate({ left: "10px" }, 600);
-    sections[0].right.stop().animate({ right: "10px" }, 600);
+    sections[0].left.stop().animate({ left: "10px" }, 300);
+    sections[0].right.stop().animate({ right: "10px" }, 300);
   } 
   else {
-    sections[0].left.stop().animate({ left: "-600px" }, 600);
-    sections[0].right.stop().animate({ right: "-600px" }, 600);
+    sections[0].left.stop().animate({ left: "-300px" }, 300);
+    sections[0].right.stop().animate({ right: "-300px" }, 300);
   }
   if (sct > sections[1].section - 350) {
-    sections[1].left.stop().animate({ left: "10px" }, 600);
-    sections[1].right.stop().animate({ right: "10px" }, 600);
+    sections[1].left.stop().animate({ left: "10px" }, 300);
+    sections[1].right.stop().animate({ right: "10px" }, 300);
   } else {
-    sections[1].left.stop().animate({ left: "-600px" }, 600);
-    sections[1].right.stop().animate({ right: "-600px" }, 600);
+    sections[1].left.stop().animate({ left: "-300px" }, 300);
+    sections[1].right.stop().animate({ right: "-300px" }, 300);
   }
   if (sct > sections[2].section - 350) {
-    sections[2].left.stop().animate({ left: "10px" }, 600);
-    sections[2].right.stop().animate({ right: "10px" }, 600);
+    sections[2].left.stop().animate({ left: "10px" }, 300);
+    sections[2].right.stop().animate({ right: "10px" }, 300);
   } else {
-    sections[2].left.stop().animate({ left: "-600px" }, 600);
-    sections[2].right.stop().animate({ right: "-600px" }, 600);
+    sections[2].left.stop().animate({ left: "-300px" }, 300);
+    sections[2].right.stop().animate({ right: "-300px" }, 300);
   }
   if (sct > sections[3].section - 350) {
-    sections[3].left.stop().animate({ left: "10px" }, 600);
-    sections[3].right.stop().animate({ right: "10px" }, 600);
+    sections[3].left.stop().animate({ left: "10px" }, 300);
+    sections[3].right.stop().animate({ right: "10px" }, 300);
   } else {
-    sections[3].left.stop().animate({ left: "-600px" }, 600);
-    sections[3].right.stop().animate({ right: "-600px" }, 600);
+    sections[3].left.stop().animate({ left: "-300px" }, 300);
+    sections[3].right.stop().animate({ right: "-300px" }, 300);
   }
   if (sct > sections[4].section - 350) {
-    sections[4].left.stop().animate({ left: "10px" }, 600);
-    sections[4].right.stop().animate({ right: "10px" }, 600);
+    sections[4].left.stop().animate({ left: "10px" }, 300);
+    sections[4].right.stop().animate({ right: "10px" }, 300);
   } else {
-    sections[4].left.stop().animate({ left: "-600px" }, 600);
-    sections[4].right.stop().animate({ right: "-600px" }, 600);
+    sections[4].left.stop().animate({ left: "-300px" }, 300);
+    sections[4].right.stop().animate({ right: "-300px" }, 300);
   }
   if (sct > sections[5].section - 350) {
-    sections[5].left.stop().animate({ left: "10px" }, 600);
-    sections[5].right.stop().animate({ right: "10px" }, 600);
+    sections[5].left.stop().animate({ left: "10px" }, 300);
+    sections[5].right.stop().animate({ right: "10px" }, 300);
   } else {
-    sections[5].left.stop().animate({ left: "-600px" }, 600);
-    sections[5].right.stop().animate({ right: "-600px" }, 600);
+    sections[5].left.stop().animate({ left: "-300px" }, 300);
+    sections[5].right.stop().animate({ right: "-300px" }, 300);
   }
 });
 
