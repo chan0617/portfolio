@@ -1496,6 +1496,9 @@ iframe {
 }
 /* 모바일 */
 @media screen and (min-width: 360px) and (max-width: 767px) {
+  section{
+    min-height: 0vh;
+  }
   nav h1 {
     width: 40px;
   }
@@ -1515,4 +1518,44 @@ iframe {
   .main-visual img{
     width: 55%;
   }
+  .main-down img{
+    top: 74%;
+    width: 40px;
+  }
+  #about::after{
+    display: none;
+  }
+  .title{
+    text-align: center;
+  }
+  #about img{
+    display: none;
+  }
+  .about-info h3{
+    word-spacing: 1px;
+  }
+  .progress-bar .rate{
+    right: -15px;
+  }
+  .detail-box{
+    top: -25px;
+  }
+  .detail-box a + a {
+    margin-left: 0;
+  }
+  .frame .hidden{
+    width: 286px;
+    height: 155px;
+    top: 23px;
+  }
+  .infos {
+    width: 90%;
+  }
+  .infos-box{
+    position: relative;
+    top: 210px;
+    margin-bottom: 50px;
+  }
+  .p2-right{margin-top: -496px;}
+  
 }
