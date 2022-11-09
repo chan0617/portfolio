@@ -1089,7 +1089,9 @@ iframe {
   margin-bottom: 8px;
   display: inline-block;
 }
-
+#portfolio #logo ul:first-child{
+    flex-wrap: wrap;
+}
 #portfolio ul.design-box {
   display: flex;
   /* flex-wrap: wrap; */
@@ -1473,8 +1475,8 @@ iframe {
     left: 450px;
   }
 }
-/* 모바일 */
-@media screen and (min-width: 360px) and (max-width: 1023px) {
+/* 테블릿 */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   nav h1 {
     width: 40px;
   }
@@ -1490,5 +1492,27 @@ iframe {
   }
   .an1-0,.an1-1,.an1-2{
     width: 100px;
+  }
+}
+/* 모바일 */
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  nav h1 {
+    width: 40px;
+  }
+  nav .gnb {
+    display: none;
+  }
+  .sideNav {
+    transform: translate(4500%,50%);
+  }
+  .sideNav li.on a {
+    width: 18px;
+    height: 100%;
+  }
+  .an1-0,.an1-1,.an1-2{
+    width: 100px;
+  }
+  .main-visual img{
+    width: 55%;
   }
 }
