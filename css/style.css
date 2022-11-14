@@ -809,7 +809,7 @@ section {
 }
 
 .title-box span::after {
-  top: 380px;  
+  top: 380px;
   left: 0;
 }
 
@@ -1089,8 +1089,8 @@ iframe {
   margin-bottom: 8px;
   display: inline-block;
 }
-#portfolio #logo ul:first-child{
-    flex-wrap: wrap;
+#portfolio #logo ul:first-child {
+  flex-wrap: wrap;
 }
 #portfolio ul.design-box {
   display: flex;
@@ -1202,7 +1202,7 @@ iframe {
   overflow-y: scroll;
   overflow-x: hidden;
 }
-#portfolio #pf-modal .modal_box img{
+#portfolio #pf-modal .modal_box img {
   width: 80%;
 }
 #portfolio #pf-modal .close {
@@ -1388,7 +1388,7 @@ iframe {
   margin-top: 300px;
   left: 865px;
 }
-.footer-area img{
+.footer-area img {
   width: 81px;
   height: 31px;
 }
@@ -1484,19 +1484,21 @@ iframe {
     display: none;
   }
   .sideNav {
-    transform: translate(4500%,50%);
+    transform: translate(4500%, 50%);
   }
   .sideNav li.on a {
     width: 18px;
     height: 100%;
   }
-  .an1-0,.an1-1,.an1-2{
+  .an1-0,
+  .an1-1,
+  .an1-2 {
     width: 100px;
   }
 }
 /* 모바일 */
 @media screen and (min-width: 360px) and (max-width: 767px) {
-  section{
+  section {
     min-height: 0vh;
   }
   nav h1 {
@@ -1506,56 +1508,92 @@ iframe {
     display: none;
   }
   .sideNav {
-    transform: translate(4500%,50%);
+    transform: translate(4500%, 50%);
   }
   .sideNav li.on a {
     width: 18px;
     height: 100%;
   }
-  .an1-0,.an1-1,.an1-2{
+  .an1-0,
+  .an1-1,
+  .an1-2 {
     width: 100px;
   }
-  .main-visual img{
+  .main-visual img {
     width: 55%;
   }
-  .main-down img{
-    top: 74%;
+  .main-down img {
+    top: 63%;
     width: 40px;
   }
-  #about::after{
+  #about::after {
     display: none;
   }
-  .title{
+  .title {
     text-align: center;
   }
-  #about img{
+  #about img {
     display: none;
   }
-  .about-info h3{
+  .about-info h3 {
     word-spacing: 1px;
   }
-  .progress-bar .rate{
+  .progress-bar .rate {
     right: -15px;
   }
-  .detail-box{
+  .detail-box {
     top: -25px;
   }
   .detail-box a + a {
     margin-left: 0;
   }
-  .frame .hidden{
+  .frame .hidden {
     width: 286px;
     height: 155px;
     top: 23px;
   }
   .infos {
     width: 90%;
+    margin-top: -280px;
   }
-  .infos-box{
+
+  .infos-box {
     position: relative;
     top: 210px;
     margin-bottom: 50px;
   }
-  .p2-right{margin-top: -496px;}
-  
+  .p2-right {
+    margin-top: -496px;
+  }
+  .p4-right {
+    margin-top: -455px;
+  }
+  .mockup {
+    width: 277px;
+    height: 468px;
+  }
+  .crop {
+    width: 260px;
+    height: 448px;
+  }
+  #portfolio .tab-menu {
+    display: inline-block;
+  }
+  #portfolio .tab-menu li > a {
+    padding: 0px 40px;
+  }
+  .contact-box {
+    top: 72px;
+  }
+  .copyright::before {
+    left: 41px;
+    top: -292px;
+  }
+  .copyright::after {
+    top: -188px;
+  }
+  .btn{
+    left: -330px;
+    top: 31px;
+  }
 }
