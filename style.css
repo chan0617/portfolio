@@ -492,7 +492,7 @@ section {
   border-radius: 100% 100% 0 0;
   position: absolute;
   background: #fff;
-  bottom: -40%;
+  bottom: -365px;
   left: 0;
   z-index: 11;
 }
@@ -555,7 +555,7 @@ section {
 
 .main-down img {
   position: absolute;
-  top: 92%;
+  top: 130%;
   left: 50%;
   z-index: 13;
   width: 75px;
@@ -904,8 +904,9 @@ section {
   background: url(../img/projects6.png) no-repeat;
   width: 839px;
   height: 785px;
-  transform: translate(-108%);
-  top: 8044px;
+  transform: translate(-107%);
+  top: auto;
+  z-index: -9999999;
 }
 
 .pj-text {
@@ -1592,7 +1593,7 @@ iframe {
   .copyright::after {
     top: -188px;
   }
-  .btn {
+  .btn{
     left: -330px;
     top: 31px;
   }
